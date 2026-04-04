@@ -1,0 +1,512 @@
+{
+  "business": {
+    "name": "Horizon Hvac",
+    "phone": "555-hva-r90",
+    "category": "hvac",
+    "city": "Phoenix",
+    "state": "AZ"
+  },
+  "design": {
+    "preset": {
+      "id": "hvac-trust-navy",
+      "categoryGroup": "hvac",
+      "name": "Trust Navy",
+      "recipeFile": "hvac/trust-navy.astro",
+      "colors": {
+        "primary": "#2563EB",
+        "primaryDark": "#1E40AF",
+        "primaryLight": "#c9d8fa",
+        "secondary": "#1f54c8",
+        "accent": "#EF4444",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#2563EB",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Montserrat",
+        "headingWeight": "700",
+        "bodyFont": "Open Sans",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "hvac/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "HVAC Experts in Phoenix",
+      "heroSubline": "Keeping your home comfortable year-round in Arizona's extreme heat. Local technicians who understand desert climate challenges.",
+      "aboutTitle": "Trusted Valley Cooling & Heating",
+      "aboutText": [
+        "Founded in 2012, Horizon HVAC began with one truck and a mission to provide honest HVAC service to Phoenix homeowners. Our founder, a third-generation Arizonan, knew firsthand how critical reliable cooling systems are for desert living.",
+        "We approach every job like it's our own home - taking time to diagnose issues properly and explain options clearly. No upsells, just straightforward solutions built to withstand 110°F summers.",
+        "As active members of the Greater Phoenix community, we support local youth sports teams and participate in heat relief programs during dangerous summer months."
+      ],
+      "valueProps": [
+        {
+          "title": "Desert-Proven Systems",
+          "description": "We specialize in HVAC configurations that handle Phoenix's extreme temperatures and dust storms."
+        },
+        {
+          "title": "Local Technicians",
+          "description": "Our team lives in the communities we serve and understands local housing structures."
+        },
+        {
+          "title": "Preventative Focus",
+          "description": "We help extend system life in harsh conditions with seasonal maintenance plans."
+        },
+        {
+          "title": "Emergency Response",
+          "description": "24/7 availability when summer breakdowns threaten your comfort and safety."
+        }
+      ],
+      "ctaHeadline": "Beat the Heat Before It Hits",
+      "ctaSubline": "Schedule your pre-summer AC tune-up today and avoid emergency repairs during peak season."
+    },
+    "services": [
+      {
+        "slug": "ac-installation",
+        "name": "AC Installation",
+        "shortDescription": "Right-sized cooling systems designed for Phoenix's brutal summers.",
+        "description": "Phoenix homes need AC units that can handle months of 110°F+ temperatures without failing. We assess your home's unique cooling needs based on square footage, insulation, window orientation, and local microclimates near landmarks like Camelback Mountain.\n\nOur installations focus on maximum efficiency for desert conditions, selecting units with high SEER ratings and durable components that resist dust storm damage. For older homes in Arcadia or Biltmore, we account for retrofitting challenges in 1970s construction while maintaining architectural integrity.\n\nWe only install equipment from manufacturers that specifically engineer products for Southwest climate challenges, ensuring your system won't struggle during our extended cooling season.",
+        "process": [
+          "Step 1: Detailed load calculation assessing home size, insulation, and heat gain",
+          "Step 2: Ductwork evaluation and sealing recommendations",
+          "Step 3: Equipment selection based on Phoenix climate demands",
+          "Step 4: Precision installation with post-install performance testing"
+        ],
+        "benefits": [
+          "Lower energy bills with properly sized units",
+          "Longer system lifespan in harsh conditions",
+          "Improved humidity control during monsoon season",
+          "Manufacturer warranties honoring desert climate use"
+        ],
+        "faq": [
+          {
+            "question": "How long does a new AC installation take in Phoenix?",
+            "answer": "Most single-family homes can be completed in one day, though historic properties may require additional time for custom retrofitting. We work efficiently to minimize your time without cooling."
+          },
+          {
+            "question": "What size unit do I need for my 1970s ranch home?",
+            "answer": "Vintage Phoenix homes often need special consideration due to original construction methods. We perform Manual J calculations to determine exact needs rather than relying on square footage alone."
+          }
+        ]
+      },
+      {
+        "slug": "heat-pump-services",
+        "name": "Heat Pump Services",
+        "shortDescription": "Efficient year-round comfort for Phoenix's mild winters and hot summers.",
+        "description": "While Phoenix winters are mild, heat pumps provide efficient heating during cooler months while handling our long cooling season. We specialize in installing and maintaining systems that can transition smoothly between these functions without strain.\n\nFor newer developments in Gilbert and Chandler, we recommend variable-speed heat pumps that adjust output to maintain steady temperatures. These systems work particularly well with the tight construction of modern homes, preventing the temperature swings common with single-stage units during our seasonal transitions.\n\nOur maintenance services focus on keeping heat pumps operating at peak efficiency year-round, with special attention to coil cleaning after dust storms and refrigerant checks before summer's extreme heat arrives.",
+        "process": [
+          "Step 1: System assessment for dual-mode capability",
+          "Step 2: Efficiency testing of existing components",
+          "Step 3: Professional cleaning of coils and components",
+          "Step 4: Performance optimization for seasonal changes"
+        ],
+        "benefits": [
+          "Single system for both heating and cooling",
+          "Lower operating costs than conventional AC + furnace",
+          "Better dehumidification during monsoon season",
+          "Quieter operation than traditional systems"
+        ],
+        "faq": [
+          {
+            "question": "Do heat pumps work well in Phoenix's climate?",
+            "answer": "Modern heat pumps are excellent for our area, providing efficient cooling in summer and adequate heating during our mild winters. We ensure proper sizing to handle both seasons effectively."
+          },
+          {
+            "question": "How often should my heat pump be serviced?",
+            "answer": "We recommend biannual maintenance - once before cooling season and again before winter. This addresses the unique wear from our climate's extreme temperature variations."
+          }
+        ]
+      },
+      {
+        "slug": "duct-sealing",
+        "name": "Duct Sealing",
+        "shortDescription": "Stop wasting cooled air in your Phoenix home.",
+        "description": "In Phoenix's extreme heat, leaky ducts can waste hundreds of dollars in cooled air annually while forcing your system to work harder. We specialize in locating and sealing leaks in attics and crawlspaces where temperatures regularly exceed 130°F.\n\nUsing specialized cameras and pressure testing equipment, we identify leaks that are particularly problematic in older Mesa homes where original ductwork may have deteriorated. Our sealing methods use high-temperature mastics and aeroseal technology that withstand our harsh conditions better than temporary fixes.\n\nProperly sealed ducts not only improve comfort but help prevent the dust infiltration common during our summer monsoon season. For homes near open desert areas like Ahwatukee, this means cleaner indoor air and reduced system strain from particulate buildup.",
+        "process": [
+          "Step 1: Pressure testing to locate leak points",
+          "Step 2: Visual inspection of accessible duct runs",
+          "Step 3: Professional sealing with heat-resistant materials",
+          "Step 4: Post-repair testing to verify improvements"
+        ],
+        "benefits": [
+          "Reduced energy bills in summer months",
+          "More consistent temperatures throughout home",
+          "Less dust infiltration during storms",
+          "Extended AC system lifespan"
+        ],
+        "faq": [
+          {
+            "question": "How much can duct sealing save on cooling costs?",
+            "answer": "Phoenix homeowners typically see 15-25% reductions in cooling costs after proper sealing, with greater savings in older homes where ductwork may have significant deterioration."
+          },
+          {
+            "question": "Will sealing help with dust in my home?",
+            "answer": "Yes, sealed ducts prevent dust from being drawn into your system during monsoon season, resulting in cleaner air and less frequent filter changes."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-ac-repair",
+        "name": "Emergency AC Repair",
+        "shortDescription": "24/7 response when Phoenix heat threatens your comfort.",
+        "description": "When your AC fails during a 115°F Phoenix summer day, every minute counts. Our emergency response team is available around the clock with fully stocked trucks to handle common failures in our climate.\n\nWe prioritize calls based on medical need and home occupancy, ensuring vulnerable residents get help first. Our technicians carry common replacement parts specific to Phoenix-area systems, from capacitor replacements to refrigerant recharges for older R22 systems still found in some 1980s homes.\n\nFor university-area rentals in Tempe or senior households in Sun City, we understand the urgency of restoring cooling quickly and safely. Our repair process focuses on getting your system running immediately while providing honest assessments about whether replacement might be more cost-effective given our extreme operating conditions.",
+        "process": [
+          "Step 1: Priority dispatch based on household needs",
+          "Step 2: Comprehensive diagnostic to identify failure",
+          "Step 3: Temporary repair to restore cooling immediately",
+          "Step 4: Long-term solution recommendations"
+        ],
+        "benefits": [
+          "Fast response during dangerous heat conditions",
+          "Technicians experienced with Phoenix-specific failures",
+          "Transparent repair vs. replace recommendations",
+          "Follow-up to ensure continued operation"
+        ],
+        "faq": [
+          {
+            "question": "What are the most common emergency repairs in summer?",
+            "answer": "Capacitor failures from sustained high temperatures, refrigerant leaks in older systems, and electrical issues from system strain are our most frequent emergency calls during peak heat."
+          },
+          {
+            "question": "Do you charge extra for after-hours emergency service?",
+            "answer": "We have standard after-hours rates, but never take advantage of emergency situations. You'll know costs before we proceed with any work."
+          }
+        ]
+      },
+      {
+        "slug": "preventative-maintenance",
+        "name": "Preventative Maintenance",
+        "shortDescription": "Protect your HVAC investment from Phoenix's extreme conditions.",
+        "description": "Phoenix's combination of extreme heat, dust storms, and UV exposure creates unique challenges for HVAC systems. Our bi-annual maintenance plans are specifically designed to address these conditions before they cause breakdowns.\n\nSpring tune-ups focus on preparing systems for summer stress: cleaning coils clogged by spring pollen, checking refrigerant levels, and testing electrical components. Fall services ensure smooth transition to heating season: inspecting heat exchangers, testing safety controls, and verifying airflow.\n\nFor historic homes in Roosevelt Row or newer developments in Desert Ridge, we tailor our maintenance to the specific needs of your property. This includes special attention to rooftop units exposed to intense sun and systems serving homes with high ceilings common in Southwest architecture.",
+        "process": [
+          "Step 1: Comprehensive system inspection",
+          "Step 2: Cleaning of critical components",
+          "Step 3: Performance testing and calibration",
+          "Step 4: Detailed report with recommendations"
+        ],
+        "benefits": [
+          "Fewer unexpected breakdowns in peak seasons",
+          "Lower energy consumption year-round",
+          "Extended equipment lifespan in harsh climate",
+          "Priority service if issues do arise"
+        ],
+        "faq": [
+          {
+            "question": "How often should Phoenix HVAC systems be serviced?",
+            "answer": "We recommend twice-yearly maintenance - before cooling and heating seasons. Our extreme summer conditions justify more frequent attention than milder climates."
+          },
+          {
+            "question": "What's included in a typical maintenance visit?",
+            "answer": "Our 30-point inspection covers electrical components, refrigerant levels, airflow, thermostat function, and cleaning of components affected by our dust and pollen."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marta R.",
+        "rating": 5,
+        "service": "Emergency AC Repair",
+        "text": "When our AC died during July's heatwave with my 85-year-old mother at home, Horizon had a tech here in 90 minutes. He not only fixed our capacitor issue but noticed our ductwork needed sealing - something no other company had mentioned in years. Lifesavers!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "AC Installation",
+        "text": "The team installed a new system in our 1978 Arcadia home and took extra care working around our original architecture. They explained why a slightly smaller unit would work better than what others quoted, and our electric bill dropped 30% this summer.",
+        "date": "2025-02-22"
+      },
+      {
+        "name": "Lisa and Dan P.",
+        "rating": 5,
+        "service": "Preventative Maintenance",
+        "text": "We've used Horizon's maintenance plan for three years now in our Chandler home. Last spring they caught a refrigerant leak before it became an emergency - in August that would've been catastrophic. Worth every penny for peace of mind.",
+        "date": "2025-04-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Duct Sealing",
+        "text": "Our second-floor bedrooms in Tempe used to be 10 degrees warmer than downstairs. After Horizon sealed our ducts and balanced the system, the temperature difference is only 2 degrees even in 110°F weather. Huge difference in comfort.",
+        "date": "2025-01-18"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Heat Pump Services",
+        "text": "We were skeptical about a heat pump in Phoenix, but Horizon explained how the new models handle our climate. Two winters and one summer in, it's been flawless. Their seasonal maintenance keeps it running efficiently year-round.",
+        "date": "2025-03-30"
+      },
+      {
+        "name": "Robert G.",
+        "rating": 5,
+        "service": "AC Installation",
+        "text": "Installed a new unit in our Scottsdale home last fall. The crew showed up on time, protected our tile floors, and cleaned up perfectly. Most impressive was their post-install follow-up to ensure everything was performing optimally as temperatures rose.",
+        "date": "2025-04-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Phoenix HVAC Services | Horizon HVAC",
+        "description": "Local Phoenix HVAC experts providing AC installation, repair and maintenance designed for Arizona's extreme heat. Serving Scottsdale to Gilbert."
+      },
+      "about": {
+        "title": "About Our Phoenix HVAC Company",
+        "description": "Learn why Horizon HVAC has been trusted for Phoenix cooling and heating solutions since 2012. Local technicians who understand desert climate challenges."
+      },
+      "services": {
+        "title": "Phoenix HVAC Services | AC Repair to Installation",
+        "description": "Complete HVAC services designed for Phoenix homes. From emergency AC repair to preventative maintenance plans that protect your investment."
+      },
+      "contact": {
+        "title": "Contact Horizon HVAC in Phoenix",
+        "description": "Schedule HVAC service in the Phoenix metro area. Emergency AC repair available 24/7 during dangerous summer heat."
+      },
+      "reviews": {
+        "title": "Phoenix HVAC Customer Reviews",
+        "description": "See what Phoenix homeowners say about their experience with Horizon HVAC services from AC installation to emergency repairs."
+      },
+      "service-areas": {
+        "title": "HVAC Service Areas in Phoenix Metro",
+        "description": "Horizon HVAC provides expert cooling and heating services throughout Phoenix, Scottsdale, Mesa, Chandler, Gilbert and Tempe."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Scottsdale",
+        "slug": "scottsdale-az",
+        "state": "AZ",
+        "content": "Horizon Hvac specializes in keeping Scottsdale's luxury Southwestern estates comfortable year-round. With temperatures often exceeding 110°F in summer, our high-efficiency cooling systems are designed to handle the extreme heat while maintaining energy efficiency. Whether you need routine maintenance for your high-end HVAC system or emergency repairs during peak summer months, our team has the expertise to service all makes and models. Many Scottsdale homes feature custom HVAC solutions to match their upscale designs, and we're experienced in working with these specialized systems.",
+        "localContext": "Scottsdale is known for its luxury homes and extreme desert heat, requiring robust HVAC solutions.",
+        "nearbyAreas": [
+          "Paradise Valley",
+          "Fountain Hills",
+          "Phoenix"
+        ]
+      },
+      {
+        "city": "Mesa",
+        "slug": "mesa-az",
+        "state": "AZ",
+        "content": "Serving Mesa's predominantly 1970s-80s stucco homes, Horizon Hvac understands the unique HVAC challenges of these properties. The extreme summer heat exceeding 110°F puts tremendous strain on older systems, making regular maintenance crucial. We specialize in upgrading outdated systems in these homes to modern, energy-efficient models that can better handle the desert climate while lowering utility bills. Our technicians are familiar with the common ductwork layouts and ventilation needs of Mesa's characteristic stucco construction.",
+        "localContext": "Mesa features many stucco homes from the 70s-80s that require specialized HVAC attention to combat extreme heat.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Tempe",
+          "Chandler"
+        ]
+      },
+      {
+        "city": "Chandler",
+        "slug": "chandler-az",
+        "state": "AZ",
+        "content": "In Chandler's 1990s-2000s planned communities, Horizon Hvac provides tailored HVAC solutions for these newer developments. The extreme summer temperatures demand reliable cooling systems, and we offer comprehensive services from installation to maintenance for Chandler homeowners. Many homes in these planned communities have similar HVAC layouts, allowing our technicians to work efficiently while still providing personalized service. We're particularly experienced with the zoning systems often found in these larger Chandler homes.",
+        "localContext": "Chandler's planned communities from the 90s-2000s benefit from our experience with their particular HVAC configurations.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Tempe",
+          "Mesa"
+        ]
+      },
+      {
+        "city": "Gilbert",
+        "slug": "gilbert-az",
+        "state": "AZ",
+        "content": "Horizon Hvac serves Gilbert's rapidly growing community, where many homes were built in the 2000s-2020s. These newer constructions often feature advanced HVAC technologies that our technicians are specially trained to service. While newer systems are more energy-efficient, Gilbert's extreme summer heat still requires regular maintenance to prevent breakdowns. We offer smart thermostat installations and other modern upgrades that pair well with Gilbert's newer home constructions.",
+        "localContext": "Gilbert's newer homes (2000s-2020s) often feature modern HVAC systems that our technicians are expert in servicing.",
+        "nearbyAreas": [
+          "Chandler",
+          "Mesa",
+          "Queen Creek"
+        ]
+      },
+      {
+        "city": "Tempe",
+        "slug": "tempe-az",
+        "state": "AZ",
+        "content": "For Tempe residents, especially those near ASU, Horizon Hvac provides reliable HVAC services tailored to the area's mix of older and student housing. The extreme summer heat affects all types of dwellings in Tempe, from historic homes to apartment complexes. We understand the importance of quick response times for student rentals and the need for careful handling of older systems in Tempe's more historic properties. Our maintenance plans help prevent system failures during the hottest months when Tempe temperatures regularly exceed 110°F.",
+        "localContext": "Tempe's university-area homes and student housing require specialized HVAC attention to combat extreme heat.",
+        "nearbyAreas": [
+          "Mesa",
+          "Scottsdale",
+          "Chandler"
+        ]
+      },
+      {
+        "city": "Phoenix",
+        "slug": "phoenix-az",
+        "state": "AZ",
+        "content": "As the heart of the Valley, Phoenix presents diverse HVAC needs that Horizon Hvac is equipped to handle. From downtown high-rises to historic neighborhoods, we service all property types in this extreme desert climate. The urban heat island effect can make Phoenix even hotter than surrounding areas, demanding robust cooling solutions. We specialize in both residential and light commercial HVAC systems, with emergency services available for those critical summer breakdowns when temperatures soar past 110°F.",
+        "localContext": "Phoenix's urban environment and extreme heat require reliable, high-performance HVAC solutions.",
+        "nearbyAreas": [
+          "Scottsdale",
+          "Tempe",
+          "Glendale"
+        ]
+      },
+      {
+        "city": "Glendale",
+        "slug": "glendale-az",
+        "state": "AZ",
+        "content": "Horizon Hvac serves Glendale's mix of historic and modern homes, all facing the challenge of extreme Arizona heat. We're experienced with the older HVAC systems found in Glendale's historic districts as well as the newer installations in recent developments. The summer heat puts extraordinary stress on cooling systems, making our maintenance plans particularly valuable for Glendale homeowners. We also specialize in optimizing systems for the large ranch-style homes common in the area.",
+        "localContext": "Glendale's blend of historic and contemporary homes all need protection from extreme desert temperatures.",
+        "nearbyAreas": [
+          "Peoria",
+          "Phoenix",
+          "Avondale"
+        ]
+      },
+      {
+        "city": "Peoria",
+        "slug": "peoria-az",
+        "state": "AZ",
+        "content": "In Peoria, Horizon Hvac provides comprehensive HVAC services for both the older established neighborhoods and newer developments. The extreme summer temperatures require systems that can operate at peak efficiency for months on end. We're particularly familiar with the cooling needs of Peoria's many active adult communities, where reliable climate control is essential for resident comfort. Our energy-efficient solutions help Peoria homeowners manage cooling costs during the long, hot summers.",
+        "localContext": "Peoria's mix of retirement communities and family homes all need dependable cooling in extreme heat.",
+        "nearbyAreas": [
+          "Glendale",
+          "Surprise",
+          "Sun City"
+        ]
+      },
+      {
+        "city": "Goodyear",
+        "slug": "goodyear-az",
+        "state": "AZ",
+        "content": "Horizon Hvac serves Goodyear's growing communities with HVAC solutions designed for the West Valley's extreme climate. As one of the hotter areas in the Phoenix metro, Goodyear demands reliable cooling systems that can withstand temperatures regularly exceeding 110°F. We specialize in servicing the newer construction prevalent in Goodyear while also maintaining older systems in established neighborhoods. Our maintenance programs are especially valuable in this high-heat environment to prevent unexpected breakdowns.",
+        "localContext": "Goodyear's West Valley location experiences some of the region's most extreme summer temperatures.",
+        "nearbyAreas": [
+          "Avondale",
+          "Buckeye",
+          "Litchfield Park"
+        ]
+      },
+      {
+        "city": "Queen Creek",
+        "slug": "queen-creek-az",
+        "state": "AZ",
+        "content": "For Queen Creek residents, Horizon Hvac offers HVAC services tailored to this rapidly growing area on Phoenix's southeastern edge. The extreme summer heat affects all homes in Queen Creek, from rural properties to new subdivisions. We're experienced with the particular challenges of serving more remote properties while maintaining quick response times. Many Queen Creek homes have larger square footage, requiring our expertise in zoned cooling solutions to maintain comfort efficiently.",
+        "localContext": "Queen Creek's mix of rural and suburban properties all need reliable cooling in extreme heat conditions.",
+        "nearbyAreas": [
+          "Gilbert",
+          "San Tan Valley",
+          "Chandler"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "ac-installation": "/images/service-ac-installation.webp",
+      "heat-pump-services": "/images/service-heat-pump-services.webp",
+      "duct-sealing": "/images/service-duct-sealing.webp",
+      "emergency-ac-repair": "/images/service-emergency-ac-repair.webp",
+      "preventative-maintenance": "/images/service-preventative-maintenance.webp"
+    },
+    "servicesResponsive": {
+      "ac-installation": {
+        "src": "/images/service-ac-installation.webp",
+        "srcset": "/images/service-ac-installation-400w.webp 400w, /images/service-ac-installation-800w.webp 800w, /images/service-ac-installation-1200w.webp 1200w, /images/service-ac-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "heat-pump-services": {
+        "src": "/images/service-heat-pump-services.webp",
+        "srcset": "/images/service-heat-pump-services-400w.webp 400w, /images/service-heat-pump-services-800w.webp 800w, /images/service-heat-pump-services-1200w.webp 1200w, /images/service-heat-pump-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "duct-sealing": {
+        "src": "/images/service-duct-sealing.webp",
+        "srcset": "/images/service-duct-sealing-400w.webp 400w, /images/service-duct-sealing-800w.webp 800w, /images/service-duct-sealing-1200w.webp 1200w, /images/service-duct-sealing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-ac-repair": {
+        "src": "/images/service-emergency-ac-repair.webp",
+        "srcset": "/images/service-emergency-ac-repair-400w.webp 400w, /images/service-emergency-ac-repair-800w.webp 800w, /images/service-emergency-ac-repair-1200w.webp 1200w, /images/service-emergency-ac-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "preventative-maintenance": {
+        "src": "/images/service-preventative-maintenance.webp",
+        "srcset": "/images/service-preventative-maintenance-400w.webp 400w, /images/service-preventative-maintenance-800w.webp 800w, /images/service-preventative-maintenance-1200w.webp 1200w, /images/service-preventative-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
